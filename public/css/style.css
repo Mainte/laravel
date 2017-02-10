@@ -1,0 +1,117 @@
+@import url("http://fonts.googleapis.com/css?family=Open Sans:300,400,600,700,800");
+
+html, body{
+	width: 100%;
+	min-width: 320px;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 14pt;
+	background-color: #fff;
+	color: #333;
+}
+
+body{
+	overflow-y: scroll;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+textarea{ resize: none; overflow: hidden; }
+
+h4{ 
+	margin: 0px;
+	padding: 0px;
+	font-weight: 600;
+	font-size: 16pt;
+	padding: 5px 0px;
+}
+
+label{ font-weight: 500; }
+option{ padding: 5px 15px; }
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+.btn{ min-width: 40px; }
+
+.bottom{ font-size: 8pt; padding-top: 10px;}
+
+.table{ margin: 0px; padding: 0px;}
+.table > tbody > tr:first-child > td{ padding-top: 0px; border-top: 0px; }
+.table > tbody > tr:last-child > td{ padding-bottom: 0px; }
+.table > tbody > tr > td { vertical-align: middle; }
+.table > tbody > tr > td:first-child { padding-left: 0px;  }
+.table > tbody > tr > td:last-child { padding-right: 0px; }
+
+#filtro{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	background-image: url('/img/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.7;
+	z-index: 99999999;
+}
+
+/*
+
+
+
+iframe{ width: 100%; border: none; ;}
+
+
+
+video { max-width: 300px; width: 300px; height: auto; }
+
+.panel-footer{ color: #fff; }
+
+
+.img-responsive{
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.75);
+}
+
+.img-absolute{
+	display: none;
+	position: absolute;
+	height: 100%;
+	max-height: 250px;
+	width: auto;
+	z-index: 1000;
+	-webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.75);
+}
+
+.alert-custom-success{
+	background-color: #3C763D;
+	color: #fff;
+}
+
+.alert-custom-danger{
+	background-color: #c10000;
+	color: #fff;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
